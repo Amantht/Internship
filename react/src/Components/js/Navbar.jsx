@@ -1,4 +1,5 @@
 import '../css/nav.css'
+import '@fortawesome/fontawesome-free/css/all.min.css'
 function navbar(){
     return(
         <>
@@ -10,9 +11,10 @@ function navbar(){
                 <li><a href="/homepage" className="menu-btn">Home</a></li>
                 <li><a href="/about" className="menu-btn">About us</a></li>
                 <li><a href="/contact" className="menu-btn">Contact</a></li>
+               
             </ul>
-            <div className="menu-btn">
-                <i className="fas fa-bars"></i>
+            <div className="search-container">
+            <li><a href="/contact"><i className="fa fa-fw fa-search"></i> </a></li>
             </div>
         </div>
     </nav>

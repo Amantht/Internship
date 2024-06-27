@@ -18,7 +18,7 @@ const Login = () => {
                                     <label htmlFor="your_email">
                                         <i className="fa-solid fa-user"></i>
                                     </label>
-                                    <input type="text" name="your_email" id="your_email" placeholder="Your Name" />
+                                    <input type="text" name="your_email" id="your_email" placeholder="Your Email" />
                                 </div>
                                 <div className="form-group">
                                     <label htmlFor="your_pass">

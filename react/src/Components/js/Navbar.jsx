@@ -13,9 +13,11 @@ function navbar(){
                 <li><a href="/contact" className="menu-btn">Contact</a></li>
                
             </ul>
-            <div className="search-container">
-            <li><a href="/contact"><i className="fa fa-fw fa-search"></i> </a></li>
+            <div className="search-container" style={{ position:'absolute', right:50 }}>
+                <li style={{ float: 'right' }}><a href="/login"><i className="fa-solid fa-user fa-xl" style={{color: "#ffffff"}}></i>
+                </a></li>
             </div>
+
         </div>
     </nav>
         </>

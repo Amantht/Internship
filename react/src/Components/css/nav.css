@@ -1,7 +1,6 @@
-
 /* navbar styling */
 .navbar{
-    position: fixed;
+    position:fixed;
     top:0%;
     background-color: black;
     width: 100%;
@@ -14,28 +13,32 @@
 .navbar .max-width{
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 .navbar .logo a{
     color: #fff;
     font-size: 35px;
     font-weight: 600;
+    padding-right: 365px;
+    
 }
 .navbar .logo a span{
     color: rgb(251, 163, 0);
     transition: all 0.3s ease;
+    
 }
 .navbar .menu li{
     list-style: none;
     display: inline-block;
+
 }
 .navbar .menu li a{
-    display: block;
+    display: flex;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
+    position: center;
 }
 .navbar .menu li a:hover{
     color: crimson;

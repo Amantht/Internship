@@ -12,7 +12,8 @@ const Login = () => {
                             <a href="/register" className="signup-image-link">Create an account</a>
                         </div>
                         <div className="signin-form">
-                            <h2 className="form-title">Sign in</h2>
+                            <h2 className="form-title">Welcome Back</h2>
+                            <p className="form-title">Please enter your email and password to continue</p>
                             <form method="POST" className="register-form" id="login-form">
                                 <div className="form-group">
                                     <label htmlFor="your_email">
